@@ -1,7 +1,7 @@
 package com.facade;
 
 import java.util.Scanner;
-import br.fastfood.facade.ComboFacade;
+import com.facade.facade.ComboFacade;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Main {
 
         ComboFacade facade = new ComboFacade();
         facade.criarCombo(escolha);
-        facade.exibirItens();
+        facade.exibirItems();
         System.out.printf("Total a pagar: R$ %.2f%n", facade.getPrecoTotal());
     }
 }

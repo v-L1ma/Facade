@@ -8,7 +8,15 @@ public class Burger implements ItemCombo {
         this.nome = nome;
         this.preco = preco;
     }
-    public String getNome()  { return nome; }
-    public double getPreco() { return preco; }
-    @Override public String toString() { return nome + " R$" + preco; }
+
+    @Override
+    public String getNome() {
+        return nome;
+    }
+
+    @Override
+    public double getPreco() {
+        return preco;
+    }
+
 }

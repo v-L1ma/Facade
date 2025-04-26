@@ -1,11 +1,11 @@
 package com.facade.model;
 
-public class Bebida implements ItemCombo{
+public class Sobremesa implements ItemCombo{
 
-    private final String nome;
-    private final double preco;
+    private String nome;
+    private double preco;
 
-    public Bebida(String nome, double preco){
+    public Sobremesa(String nome, double preco){
         this.nome = nome;
         this.preco = preco;
     }
